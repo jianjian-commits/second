@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>我的购物车-小米商城</title>
+        <link rel="icon" href="//s01.mifile.cn/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/goodsCar.css">
+    </head>
+    <body>
+        <!-- 头部 -->
+        <div id="header">
+            <div class="header-wrap">
+                <div class="header_l">
+                    <a href="../html/index.html">
+                        <p>
+                            <img src="../images/indexImg/mi-home.png" alt="">
+                            <img src="../images/indexImg/mi-logo (1).png" alt="">
+                        </p>
+                    </a>
+                    <span class="title">我的购物车</span>
+                    <span class="msg">温馨提示：产品是否购买成功，以最终下单为准哦，请尽快结算</span>
+                </div>
+                <div class="header_r">
+                    <a href="jacascript:;" class="user_info">jianjian</a>
+                    <span class="sep">|</span>
+                    <a href="javascript:;" class="mydd">我的订单</a>
+                </div>
+            </div>
+        </div>
+        <!-- 商品列表和购物车 -->
+        <div id="goods-wrap">
+            <div class="goodsCar_list">
+                <div class="list_header">
+                    <div class="col col-check">
+                        <i class="checkbox check-select">√</i>
+                        全选
+                    </div>
+                    <div class="col col-img">&nbsp;</div>
+                    <div class="col col-name">商品名称</div>
+                    <div class="col col-price">单价</div>
+                    <div class="col col-num">数量</div>
+                    <div class="col col-total">小计</div>
+                    <div class="col col-action">操作</div>
+                </div>
+                <div class="list_body">
+                    <!-- <div class="item-box">
+                        <div class="col col-check">
+                            <i class="checkbox">√</i>
+                        </div>
+                        <div class="col col-img">
+                            <a href="javascript:;">
+                                <img src="//cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1563334968.4986834.jpg?thumb=1&w=80&h=80" alt="">
+                            </a>
+                        </div>
+                        <div class="col col-name">
+                            <h3 class="name">
+                                <a href="javascript:;">
+                                    Redmi充电宝 10000mAh 白色
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="col col-price">59元</div>
+                        <div class="col num col-num">
+                            <div class="change_num">
+                                <a href="javascript:;">-</a><input type="text" class="goods-num" autocomplete="off"><a href="javascript:;">+</a>
+                            </div>
+                        </div>
+                        <div class="col col-total">59元</div>
+                        <div class="col col-action">
+                            <a href="javascript:;" class="del">×</a>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="cart_bar">
+                    <div class="section-left">
+                        <a href="./index.html">继续购物</a>
+                        <span>共
+                            <i class="sum_num">0</i>
+                            件商品，已选择 
+                            <i class="selec_num">0</i>
+                            件
+                        </span>
+                    </div>
+                    <span class="total_price">
+                        合计
+                        <em class="sum_price">0</em>元
+                        <a href="javascript:;" class="pay">去结算</a>
+                    </span>
+                </div>
+            </div>
+            <div class="other_goods">
+                <fieldset>
+                    <legend>买购物车中商品的人还买了</legend>
+                </fieldset>
+                <div class="other_list">
+                    <ul class="recommend-list">
+                        <!--<li>
+                            <a href="javascript:;">
+                                <img src="//i1.mifile.cn/a1/pms_1531379680.75174177!180x180.jpg" alt="">
+                                <div class="recommend-name">小米USB-C TO USB-C数据线</div>
+                                <div class="recommend-price">29元</div>
+                                <div class="recommend-tips">801人好评</div>
+                            </a>
+                            <div class="recommend-action">
+                                <a href="javascript:;" class="btn_small">加入购物车</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="//i1.mifile.cn/a1/pms_1531379680.75174177!180x180.jpg" alt="">
+                                <div class="recommend-name">小米USB-C TO USB-C数据线</div>
+                                <div class="recommend-price">29元</div>
+                                <div class="recommend-tips">801人好评</div>
+                            </a>
+                            <div class="recommend-action">
+                                <a href="javascript:;" class="btn_small">加入购物车</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="//i1.mifile.cn/a1/pms_1531379680.75174177!180x180.jpg" alt="">
+                                <div class="recommend-name">小米USB-C TO USB-C数据线</div>
+                                <div class="recommend-price">29元</div>
+                                <div class="recommend-tips">801人好评</div>
+                            </a>
+                            <div class="recommend-action">
+                                <a href="javascript:;" class="btn_small">加入购物车</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="//i1.mifile.cn/a1/pms_1531379680.75174177!180x180.jpg" alt="">
+                                <div class="recommend-name">小米USB-C TO USB-C数据线</div>
+                                <div class="recommend-price">29元</div>
+                                <div class="recommend-tips">801人好评</div>
+                            </a>
+                            <div class="recommend-action">
+                                <a href="javascript:;" class="btn_small">加入购物车</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="//i1.mifile.cn/a1/pms_1531379680.75174177!180x180.jpg" alt="">
+                                <div class="recommend-name">小米USB-C TO USB-C数据线</div>
+                                <div class="recommend-price">29元</div>
+                                <div class="recommend-tips">801人好评</div>
+                            </a>
+                            <div class="recommend-action">
+                                <a href="javascript:;" class="btn_small">加入购物车</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="//i1.mifile.cn/a1/pms_1531379680.75174177!180x180.jpg" alt="">
+                                <div class="recommend-name">小米USB-C TO USB-C数据线</div>
+                                <div class="recommend-price">29元</div>
+                                <div class="recommend-tips">801人好评</div>
+                            </a>
+                            <div class="recommend-action">
+                                <a href="javascript:;" class="btn_small">加入购物车</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="//i1.mifile.cn/a1/pms_1531379680.75174177!180x180.jpg" alt="">
+                                <div class="recommend-name">小米USB-C TO USB-C数据线</div>
+                                <div class="recommend-price">29元</div>
+                                <div class="recommend-tips">801人好评</div>
+                            </a>
+                            <div class="recommend-action">
+                                <a href="javascript:;" class="btn_small">加入购物车</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="//i1.mifile.cn/a1/pms_1531379680.75174177!180x180.jpg" alt="">
+                                <div class="recommend-name">小米USB-C TO USB-C数据线</div>
+                                <div class="recommend-price">29元</div>
+                                <div class="recommend-tips">801人好评</div>
+                            </a>
+                            <div class="recommend-action">
+                                <a href="javascript:;" class="btn_small">加入购物车</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="//i1.mifile.cn/a1/pms_1531379680.75174177!180x180.jpg" alt="">
+                                <div class="recommend-name">小米USB-C TO USB-C数据线</div>
+                                <div class="recommend-price">29元</div>
+                                <div class="recommend-tips">801人好评</div>
+                            </a>
+                            <div class="recommend-action">
+                                <a href="javascript:;" class="btn_small">加入购物车</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="//i1.mifile.cn/a1/pms_1531379680.75174177!180x180.jpg" alt="">
+                                <div class="recommend-name">小米USB-C TO USB-C数据线</div>
+                                <div class="recommend-price">29元</div>
+                                <div class="recommend-tips">801人好评</div>
+                            </a>
+                            <div class="recommend-action">
+                                <a href="javascript:;" class="btn_small">加入购物车</a>
+                            </div>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 底部内容 -->
+        <div class="footer-wrap">
+            <div class="site-footer">
+                <div class="contain">
+                    <div class="footer-service">
+                        <ul class="clear_fix">
+                            <li class="first">
+                                <a href="javascript:;">
+                                    <img class="ico=tool" src="../images/indexImg/xm_sevr_03.jpg" alt="">
+                                    预约维修服务
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img class="ico=tool" src="../images/indexImg/xm_sevr_06.jpg" alt="">
+                                    7天无理由退货
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img class="ico=tool" src="../images/indexImg/xm_sevr_08.jpg" alt="">
+                                    15天免费退货
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img class="ico=tool" src="../images/indexImg/xm_sevr_11.jpg" alt="">
+                                    满99元包邮
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img class="ico=tool" src="../images/indexImg/xm_sevr_13.jpg" alt="">
+                                    520余家售后网点
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-links clear_fix">
+                        <dl class="col-links">
+                            <dt>帮助中心</dt>
+                            <dd><a href="javascript:;">账户管理</a></dd>
+                            <dd><a href="javascript:;">购物指南</a></dd>
+                            <dd><a href="javascript:;">订单操作</a></dd>
+                        </dl>
+                        <dl class="col-links">
+                            <dt>服务支持</dt>
+                            <dd><a href="javascript:;">售后政策</a></dd>
+                            <dd><a href="javascript:;">自助服务</a></dd>
+                            <dd><a href="javascript:;">相关下载</a></dd>
+                        </dl>
+                        <dl class="col-links">
+                            <dt>线下门店</dt>
+                            <dd><a href="javascript:;">小米之家</a></dd>
+                            <dd><a href="javascript:;">服务网点</a></dd>
+                            <dd><a href="javascript:;">授权体验店</a></dd>
+                        </dl>
+                        <dl class="col-links">
+                            <dt>关于小米</dt>
+                            <dd><a href="javascript:;">了解小米</a></dd>
+                            <dd><a href="javascript:;">加入小米</a></dd>
+                            <dd><a href="javascript:;">投资者关系</a></dd>
+                            <dd><a href="javascript:;">企业社会责任</a></dd>
+                            <dd><a href="javascript:;">廉洁举报</a></dd>
+                        </dl>
+                        <dl class="col-links">
+                            <dt>关注我们</dt>
+                            <dd><a href="javascript:;">新浪微博</a></dd>
+                            <dd><a href="javascript:;">官方微信</a></dd>
+                            <dd><a href="javascript:;">联系我们</a></dd>
+                            <dd><a href="javascript:;">公益基金会</a></dd>
+                        </dl>
+                        <dl class="col-links">
+                            <dt>特色服务</dt>
+                            <dd><a href="javascript:;">F码头通道</a></dd>
+                            <dd><a href="javascript:;">礼物码</a></dd>
+                            <dd><a href="javascript:;">防伪查询</a></dd>
+                        </dl>
+                        <div class="col-contact">
+                            <p class="phone">400-100-5678</p>
+                            <p>8:00-18:00（仅收市话费）</p>
+                            <a class="a_btn" href="javascript:;">
+                                <img src="" alt="">
+                                人工客服
+                            </a>
+                            <div class="follow">
+                                关注小米：
+                                <a class="wb" href="javascript:;"></a>
+                                <a class="wx" href="javascript:;"></a>
+                                <img src="//cnbj1.fds.api.xiaomi.com/staticsfile/global/wx-img.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="site-info">
+                <div class="container">
+                    <div class="xm_gw">小米官网</div>
+                    <div class="info-text">
+                        <p class="sites">
+                            <a href="javascript:;">小米商城</a>
+                            <span class="sep">|</span>
+                            <a href="javascript:;">MIUI</a>
+                            <span class="sep">|</span>
+                            <a href="javascript:;">米家</a>
+                            <span class="sep">|</span>
+                            <a href="javascript:;">米聊</a>
+                            <span class="sep">|</span>
+                            <a href="javascript:;">多看</a>
+                            <span class="sep">|</span>
+                            <a href="javascript:;">游戏</a>
+                            <span class="sep">|</span>
+                            <a href="javascript:;">政企服务</a>
+                            <span class="sep">|</span>
+                            <a href="javascript:;">小米天猫店</a>
+                            <span class="sep">|</span>
+                            <a href="javascript:;">小米集团隐私政策</a>
+                            <span class="sep">|</span>
+                            <a href="javascript:;">小米公司儿童信息保护规则</a>
+                            <span class="sep">|</span>
+                            <a href="javascript:;">小米商城隐私政策</a>
+                            <span class="sep">|</span>
+                            <a href="javascript:;">小米商城用户协议</a>
+                            <span class="sep">|</span>
+                            <a href="javascript:;">问题反馈</a>
+                            <span class="sep">|</span>
+                            <a href="javascript:;">Select Location</a>
+                        </p>
+                        <p>
+                            ©<a href="javascript:;">mi.com
+                            </a> 京ICP证110507号<a href="javascript:;">京ICP备10046444号</a>
+                            <a href="javascript:;">京公网安备11010802020134号</a>
+                            <a href="javascript:;">京网文[2020]0276-042号</a>
+                            <br>
+                            <a href="javascript:;">（京）网械平台备字（2018）第00005号</a>
+                            <a href="javascript:;"> 互联网药品信息服务资格证 (京)-非经营性-2014-0090</a>
+                            <a href="javascript:;">营业执照</a>
+                            <a href="javascript:;">医疗器械质量公告</a>
+                            <br>
+                            <a href="javascript:;">增值电信业务许可证</a>
+                            &nbsp;网络食品经营备案 京食药网食备201810017 &nbsp;
+                            <a href="javascript:;">食品经营许可证</a>
+                            <br>
+                            违法和不良信息举报电话：171-5104-4404 
+                            <a href="javascript:;">知识产权侵权投诉</a>
+                            &nbsp;本网站所列数据，除特殊说明，所有数据均出自我司实验室测试
+                        </p>
+                    </div>
+                    <div class="info-links">
+                        <a href="javascript:;">
+                            <img src="//i1.mifile.cn/f/i/17/site/truste.png" alt="">
+                        </a>
+                        <a href="javascript:;">
+                            <img src="//s01.mifile.cn/i/v-logo-2.png" alt="">
+                        </a>
+                        <a href="javascript:;">
+                            <img src="//s01.mifile.cn/i/v-logo-1.png" alt="">
+                        </a>
+                        <a href="javascript:;">
+                            <img src="//i8.mifile.cn/b2c-mimall-media/ba10428a4f9495ac310fd0b5e0cf8370.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>            
+        </div>
+        <script type="module" src="../js/goodsCar.js"></script>
+    </body>
+</html>

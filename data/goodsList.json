@@ -1,0 +1,90 @@
+[
+    {
+      "product_id": 10000150,
+      "name": "Redmi K20",
+      "desc": "弹出全面屏，4800万三摄",
+      "image": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/8e25131b652ef1f2bd624c686997ddbd.jpg?w=1708&h=868",
+      "price": 1799,
+      "del": 2099
+    },
+    {
+      "product_id": 10000151,
+      "name": "Redmi K20 Pro ",
+      "desc": "骁龙855处理器, 弹出式极界全面屏",
+      "image": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/e3804da7bbd3aa029bc00b970b61227a.jpg?w=1708&h=868",
+      "price": 2299,
+      "del": 2599
+    },
+    {
+      "product_id": 10000152,
+      "name": "Redmi 7A",
+      "desc": "骁龙8核处理器",
+      "image": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/30d1d37e94c51aab95dd1333495b506f.jpg?w=1708&h=868",
+      "price": 579,
+      "del": 599
+    },
+    {
+      "product_id": 10000134,
+      "name": "小米9",
+      "desc": "全息幻彩机身，骁龙855 ",
+      "image": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/271093cb5862f9b0073b0bf813e04f52.jpg",
+      "price": 2799,
+      "del": 3299
+    },
+    {
+      "product_id": 9455,
+      "name": "Redmi Note 7 Pro",
+      "desc": "索尼4800万超清拍照",
+      "image": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/b6ea8d70aa2ebeabd41d5596b3498768.jpg?w=1212&h=716",
+      "price": 1399,
+      "del": 1599
+    },
+    {
+      "product_id": 10000131,
+      "name": "Redmi Note 7",
+      "desc": "4800万拍照 长续航 ",
+      "image": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8cb25a30b89e1db8476414a95d27816d.jpg",
+      "price": 1099,
+      "del": 1399
+    },
+    {
+      "product_id": 10000138,
+      "name": "Redmi 7 ",
+      "desc": "4000mAh超长续航",
+      "image": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/f422d4f9a7ca334cd00bcbea2e48cbc2.jpg?w=1212&h=716",
+      "price": 699,
+      "del": 799
+    },
+    {
+      "product_id": 10000135,
+      "name": "小米9 SE",
+      "desc": "索尼4800万三摄，骁龙712",
+      "image": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d02a52c64ecf13f1a3137e062628f20e.jpg",
+      "price": 1599,
+      "del": 1999
+    },
+    {
+      "product_id": 10000139,
+      "name": "黑鲨游戏手机 3",
+      "desc": "骁龙855，立体触控",
+      "image": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/c3433802597b7991dc20c58a26c6ac39.jpg?w=1708&h=868",
+      "price": 2699,
+      "del": 3499
+    },
+    {
+        "product_id": 10000140,
+        "name": "Redmi K30 Pro 变焦版",
+        "desc": "双模5G，骁龙865，弹出全面屏，索尼6400万双光学防抖四摄",
+        "image": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2b33b75a39248b5195c41c9a16bce9fb.jpg?w=1708&h=868",
+        "price": 3399,
+        "del": 3699
+    },
+    {
+    "product_id": 10000141,
+    "name": "Redmi K30 4G",
+    "desc": "120Hz流速屏，全速热爱",
+    "image": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/61466261e8001f3f18991f6abff46ccf.jpg?w=1212&h=716",
+    "price": 1399,
+    "del": 1599
+    }
+  ]

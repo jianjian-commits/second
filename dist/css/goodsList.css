@@ -1,0 +1,186 @@
+@charset "UTF-8";
+.app {
+  font-size: 14px;
+  line-height: 21px;
+  color: #333;
+  background: #ea875e;
+  min-width: 1226px; }
+  .app .list-top {
+    height: 799px;
+    width: 100%;
+    background-color: pink;
+    overflow: hidden; }
+    .app .list-top a {
+      display: block;
+      width: 2560px;
+      height: 799px;
+      position: relative;
+      left: 50%;
+      margin-left: -1280px; }
+      .app .list-top a img {
+        height: 799px;
+        width: 100%; }
+  .app .list-box {
+    font-family: "Helvetica Neue";
+    padding-bottom: 14px; }
+    .app .list-box .list-banner {
+      width: 100%;
+      height: 167px;
+      margin-bottom: 12px;
+      overflow: hidden; }
+      .app .list-box .list-banner a {
+        display: block;
+        width: 2560px;
+        height: 167px;
+        position: relative;
+        left: 50%;
+        margin-left: -1280px; }
+        .app .list-box .list-banner a img {
+          height: 167px;
+          width: 100%; }
+    .app .list-box .con_box {
+      width: 1226px;
+      height: 434px;
+      margin: 0 auto; }
+      .app .list-box .con_box .item {
+        width: 1226px;
+        height: 434px;
+        background: #fff;
+        text-align: left;
+        display: flex;
+        margin-bottom: 12px; }
+        .app .list-box .con_box .item .img-box a {
+          display: block;
+          position: relative;
+          overflow: hidden;
+          width: 854px;
+          height: 100%; }
+          .app .list-box .con_box .item .img-box a img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            background: #e6e6e6;
+            transition: transform .6s ease-in-out;
+            transform: scale(1) translateZ(0); }
+            .app .list-box .con_box .item .img-box a img:hover {
+              transform: scale(1.03) translateZ(0); }
+        .app .list-box .con_box .item .item-con {
+          padding: 105px 0 10px 42px;
+          flex: 1;
+          padding-top: 105px;
+          padding-left: 42px; }
+          .app .list-box .con_box .item .item-con .title {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 36px;
+            color: #242424;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap; }
+          .app .list-box .con_box .item .item-con .desc {
+            line-height: 24px;
+            color: #666;
+            font-size: 14px; }
+          .app .list-box .con_box .item .item-con .price {
+            font-size: 24px;
+            line-height: 1;
+            margin-top: 45px;
+            color: #ea625b;
+            font-family: "微软雅黑"; }
+            .app .list-box .con_box .item .item-con .price sup {
+              top: -3px;
+              vertical-align: top;
+              margin-right: 2px; }
+            .app .list-box .con_box .item .item-con .price span {
+              line-height: 1;
+              font-size: 24px; }
+              .app .list-box .con_box .item .item-con .price span em {
+                font-size: 14px; }
+          .app .list-box .con_box .item .item-con .btn_buy {
+            background: #ea625b;
+            border-radius: 2px;
+            width: 160px;
+            height: 44px;
+            line-height: 44px;
+            text-align: center;
+            display: block;
+            color: #fff;
+            font-size: 18px;
+            margin-top: 18px;
+            transition: all 0.4s; }
+    .app .list-box .con_box2 {
+      width: 1226px;
+      height: 492px;
+      margin: 0 auto; }
+      .app .list-box .con_box2 .item1 {
+        margin-right: 14px;
+        background: #fff;
+        margin: 0 auto 12px;
+        margin-right: 12px;
+        height: 492px;
+        width: 606px;
+        list-style: none;
+        float: left;
+        text-align: left; }
+        .app .list-box .con_box2 .item1 .s_img {
+          display: block;
+          position: relative;
+          overflow: hidden;
+          width: 606px;
+          height: 358px;
+          margin-bottom: 10px; }
+          .app .list-box .con_box2 .item1 .s_img img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            background: #e6e6e6;
+            transform: scale(1) translateZ(0);
+            transition: transform .6s ease-in-out; }
+            .app .list-box .con_box2 .item1 .s_img img:hover {
+              transform: scale(1.03) translateZ(0); }
+        .app .list-box .con_box2 .item1 .item-con {
+          padding-bottom: 10px; }
+          .app .list-box .con_box2 .item1 .item-con .con-l {
+            margin-left: 28px;
+            padding-top: 35px;
+            width: 360px;
+            float: left; }
+            .app .list-box .con_box2 .item1 .item-con .con-l a {
+              font-weight: 400;
+              display: block;
+              color: #242424;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+              font-size: 22px; }
+            .app .list-box .con_box2 .item1 .item-con .con-l .desc {
+              font-size: 14px;
+              line-height: 20px;
+              color: #666; }
+          .app .list-box .con_box2 .item1 .item-con .con-r {
+            margin-right: 45px;
+            padding-top: 25px;
+            text-align: right;
+            float: right; }
+            .app .list-box .con_box2 .item1 .item-con .con-r .price {
+              color: #ff4a48;
+              font-size: 24px;
+              line-height: 1; }
+              .app .list-box .con_box2 .item1 .item-con .con-r .price sup {
+                vertical-align: top;
+                margin-right: 2px; }
+            .app .list-box .con_box2 .item1 .item-con .con-r .btn_buy {
+              background: #ea625b;
+              margin-top: 10px;
+              border-radius: 2px;
+              width: 160px;
+              height: 44px;
+              line-height: 44px;
+              text-align: center;
+              display: inline-block;
+              color: #fff;
+              font-size: 18px;
+              transition: all .4s; }
+
+.app .list-box .con_box2 li:nth-child(2n) {
+  margin-right: 0; }
