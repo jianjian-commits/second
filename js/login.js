@@ -52,14 +52,28 @@ import  "../js/jquery.cookie.js";
                 success: data =>{
                     console.log(userValue)
                     console.log(passValue)
-                    msg.removeClass("hidden").css("color", "green").html(data.msg);
-                    $.cookie("userInfo", `[{"username": ${userValue}},{"password": ${passValue}}]`, {
-                        expires: 7,
-                        raw: true,
-                    })
-                    setTimeout(function(){
-                        location.href = "./index.html";
-                    }, 500)
+                   
+                    if($.cookie("userInfo")){
+                        $.cookie("userInfo", null);
+                        $.cookie("userInfo", `[{"username": ${userValue},"password": "${passValue}"}]`, {
+                            expires: 7,
+                            raw: true,
+                        })
+                    }else{
+                        $.cookie("userInfo", `[{"username": ${userValue},"password": "${passValue}"}]`, {
+                            expires: 7,
+                            raw: true,
+                        })
+                    }
+                    if(data.err == 1){
+                        msg.removeClass("hidden").css("color", "green").html(data.msg);
+                        setTimeout(function(){
+                            location.href = "./index.html";
+                        }, 500)
+                    }
+                    if(data.err == -1){
+                        msg.removeClass("hidden").css("color", "red").html(data.msg);
+                    }
                 },
                 error: msg =>{
                     console.log(msg);

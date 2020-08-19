@@ -3,9 +3,17 @@ define(["jquery", "jquery-cookie"], function($){
 
     //判断cookie中有没有用户信息，有就显示出来
     function pullInfo(){
-        let cookieStr = $.cookie("userInfo");
-        let cookieArr = JSON.parse(cookieStr);
-        console.log(cookieArr);
+        if($.cookie("userInfo")){
+            let cookieStr = $.cookie("userInfo");
+            let cookieArr = JSON.parse(cookieStr);
+            $(".login").addClass("hidden");
+            $(".register").addClass("hidden");
+            $(".username").css("float", "left").removeClass("hidden").html(`欢迎您! ${cookieArr[0].username}`);
+        }else{
+            $(".login").removeClass("hidden");
+            $(".register").removeClass("hidden");
+            $(".username").addClass("hidden");
+        }
     }
     
     //logo图标切换
@@ -79,7 +87,6 @@ define(["jquery", "jquery-cookie"], function($){
     }
 
     //点击列表导航加载并弹出对应的子菜单
-    var topindex = 0;
     function loadTopbar(){
 
         //先创建列表导航栏

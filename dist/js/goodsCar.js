@@ -3,6 +3,22 @@ import "./jquery.cookie.js";
 
 //logo图标切换
 (function(){
+    pullInfo();
+    function pullInfo(){
+        if($.cookie("userInfo")){
+            let cookieStr = $.cookie("userInfo");
+            let cookieArr = JSON.parse(cookieStr);
+            $(".login").css("float","left").addClass("hidden");
+            $(".register").css("float","left").addClass("hidden");
+            $(".user_info").css("float", "left").removeClass("hidden").html(`欢迎您! ${cookieArr[0].username}`);
+        }else{
+            $(".login").removeClass("hidden");
+            $(".register").removeClass("hidden");
+            $(".username").addClass("hidden");
+            $(".login").css("float","left");
+            $(".register").css("float","left");
+        }
+    }
     tabLogo();
     //头部logo
     function tabLogo(){

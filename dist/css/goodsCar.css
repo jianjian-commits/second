@@ -51,16 +51,16 @@ body {
       height: 40px;
       line-height: 40px;
       margin-top: 30px; }
-      #header .header-wrap .header_r .user_info {
+      #header .header-wrap .header_r .user_info, #header .header-wrap .header_r a {
         position: relative;
-        width: 70px;
+        min-width: 70px;
         padding: 0;
         white-space: nowrap;
         line-height: 40px;
         text-align: center;
         float: left;
         color: #757575; }
-        #header .header-wrap .header_r .user_info:hover {
+        #header .header-wrap .header_r .user_info:hover, #header .header-wrap .header_r a:hover {
           color: #ff6700; }
       #header .header-wrap .header_r .sep {
         line-height: 40px;
@@ -68,7 +68,7 @@ body {
       #header .header-wrap .header_r .mydd {
         padding: 0 5px;
         text-align: center;
-        width: 70px;
+        min-width: 70px;
         float: left;
         color: #757575; }
         #header .header-wrap .header_r .mydd:hover {

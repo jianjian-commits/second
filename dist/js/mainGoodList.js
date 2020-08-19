@@ -22,6 +22,6 @@ require(["index", "goodsList"], function(index, goodsList){
     index.slideLoading();
     index.weixinHover();
     index.bar_msg();
-    
+    index.pullInfo();
 })
 

@@ -24,6 +24,7 @@ require(["index", "goodsDesc"], function(index, goodsDesc){
     index.slideLoading();
     index.weixinHover();
     index.bar_msg();
+    index.pullInfo();
 
     goodsDesc.allGoodsHover();
     goodsDesc.sideHover();
