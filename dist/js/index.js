@@ -87,7 +87,6 @@ define(["jquery", "jquery-cookie"], function($){
     }
 
     //点击列表导航加载并弹出对应的子菜单
-    var topindex = 0;
     function loadTopbar(){
 
         //先创建列表导航栏

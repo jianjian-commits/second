@@ -452,6 +452,9 @@
   overflow: hidden;
   color: #333333; }
 
+.children-list .text:hover {
+  color: #ff6700; }
+
 .footer-wrap .contain {
   width: 1226px;
   height: 272px;
