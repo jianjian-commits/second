@@ -273,7 +273,7 @@ define(["jquery", "jquery-cookie"], function($){
                     parNode.appendTo($(".category_list"))
                     
                     var childData = data[i].child;
-                    var col = Math.ceil(childData.length / 6);
+                    
 
                     for(var j = 0; j < childData.length; j++){
                         if(j % 6 == 0){

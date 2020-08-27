@@ -273,7 +273,7 @@ define(["jquery", "jquery-cookie"], function($){
                     parNode.appendTo($(".category_list"))
                     
                     var childData = data[i].child;
-                    var col = Math.ceil(childData.length / 6);
+                    
 
                     for(var j = 0; j < childData.length; j++){
                         if(j % 6 == 0){
@@ -348,7 +348,6 @@ define(["jquery", "jquery-cookie"], function($){
                 counts = Math.ceil($(".shopp_banner li").length / 4);
                 let list_width = parseInt($(".shopp_banner").css("width")) * counts;
                 $(".shopp_banner").css("width", list_width);
-
             
             }
         })
