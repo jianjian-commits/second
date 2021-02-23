@@ -348,6 +348,7 @@ define(["jquery", "jquery-cookie"], function($){
                 counts = Math.ceil($(".shopp_banner li").length / 4);
                 let list_width = parseInt($(".shopp_banner").css("width")) * counts;
                 $(".shopp_banner").css("width", list_width);
+
             
             }
         })
